@@ -1,0 +1,58 @@
+{
+  "figma_file_key": "pYcKD6oYVNnHd4vEG2hhLW",
+  "colors": {
+    "black": "#000000",
+    "black_900": "#1A1A1A",
+    "black_800": "#333333",
+    "black_700": "#4D4D4D",
+    "black_600": "#666666",
+    "black_500": "#808080",
+    "black_100": "#E5E5E5",
+    "black_50": "#F2F2F2",
+    "white": "#FFFFFF",
+    "system_blue": "#007AFF",
+    "system_red": "#FF3B30",
+    "system_orange": "#FF9500",
+    "system_green": "#26A212"
+  },
+  "radii": {
+    "card": 24,
+    "input": 6,
+    "button": 6,
+    "switch": 999
+  },
+  "spacing": {
+    "panel_padding": 48,
+    "panel_gap": 24,
+    "form_gap": 32
+  },
+  "typography": {
+    "fonts": ["Roboto", "SF Pro Display", "system-ui"],
+    "title": {
+      "fontFamily": "Roboto",
+      "fontWeight": 700,
+      "fontSize": 30,
+      "lineHeight": 36
+    },
+    "input": {
+      "fontFamily": "Roboto",
+      "fontWeight": 400,
+      "fontSize": 15,
+      "lineHeight": 20
+    },
+    "meta": {
+      "fontFamily": "SF Pro Display",
+      "fontWeight": 400,
+      "fontSize": 12,
+      "lineHeight": 20
+    }
+  },
+  "assets": {
+    "hero_photo": "./assets/images/hero-photo.png",
+    "avatar": "./assets/avatar-ui-unicorn.png",
+    "icons": {
+      "google": "./assets/icons/google.svg",
+      "eye": "./assets/icons/eye.svg"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "figma_file_key": "pYcKD6oYVNnHd4vEG2hhLW",
+  "total_frames": 2,
+  "frames": [
+    {
+      "name": "Sign-In-Form-Desktop-Layout-1440x900",
+      "node_id": "401:3987",
+      "gt_image": "Sign-In-Form-Desktop-Layout-1440x900.png",
+      "target_route": "/"
+    },
+    {
+      "name": "Sign-In-Form-Mobile-Layout-375x812",
+      "node_id": "401:3762",
+      "gt_image": "Sign-In-Form-Mobile-Layout-375x812.png",
+      "target_route": "/"
+    }
+  ]
+}
