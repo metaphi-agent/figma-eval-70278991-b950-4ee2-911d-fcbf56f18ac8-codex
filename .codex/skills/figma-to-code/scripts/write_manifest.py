@@ -40,7 +40,9 @@ def load_manifest(path: str) -> dict:
 
 def save_manifest(path: str, manifest: dict) -> None:
     """Save manifest to file."""
-    os.makedirs(os.path.dirname(path), exist_ok=True)
+    manifest_dir = os.path.dirname(path)
+    if manifest_dir:
+        os.makedirs(manifest_dir, exist_ok=True)
     with open(path, "w") as f:
         json.dump(manifest, f, indent=2)
 

@@ -21,13 +21,15 @@ export function Switch({ checked, onChange, label, id }: SwitchProps) {
         />
         <span
           className={clsx(
-            'absolute inset-0 rounded-full border border-[var(--color-black-100)] transition-colors duration-150',
-            checked ? 'bg-[var(--color-system-green)]' : 'bg-[var(--color-black-50)]'
+            'absolute inset-0 rounded-full border-[0.5px] border-[var(--color-black-100)] transition-colors duration-150',
+            checked
+              ? 'border-[var(--color-system-blue)] bg-[var(--color-system-blue)]'
+              : 'bg-[var(--color-black-50)]'
           )}
         />
         <span
           className={clsx(
-            'absolute left-0.5 top-0.5 h-4 w-4 rounded-full bg-white shadow-sm transition-transform duration-150',
+            'absolute left-0.5 top-0.5 h-4 w-4 rounded-full bg-white shadow-[1px_1px_2px_-1px_rgba(51,51,51,0.3)] transition-transform duration-150',
             checked && 'translate-x-5'
           )}
         />

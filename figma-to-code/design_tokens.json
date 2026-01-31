@@ -27,12 +27,12 @@
     "form_gap": 32
   },
   "typography": {
-    "fonts": ["Roboto", "SF Pro Display", "system-ui"],
+    "fonts": ["Poppins", "Roboto", "SF Pro Display", "system-ui"],
     "title": {
-      "fontFamily": "Roboto",
-      "fontWeight": 700,
-      "fontSize": 30,
-      "lineHeight": 36
+      "fontFamily": "Poppins",
+      "fontWeight": 600,
+      "fontSize": 20,
+      "lineHeight": 28
     },
     "input": {
       "fontFamily": "Roboto",
@@ -48,7 +48,7 @@
     }
   },
   "assets": {
-    "hero_photo": "./assets/images/hero-photo.png",
+    "hero_photo": "./assets/images/hero-photo.jpg",
     "avatar": "./assets/avatar-ui-unicorn.png",
     "icons": {
       "google": "./assets/icons/google.svg",

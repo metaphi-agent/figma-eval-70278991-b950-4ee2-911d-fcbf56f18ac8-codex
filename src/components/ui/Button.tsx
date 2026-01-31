@@ -21,6 +21,8 @@ export function Button({
 }: ButtonProps) {
   const isDisabled = disabled || isLoading
 
+  const secondaryTypography = 'px-4 text-[12px] leading-5 font-[400] tracking-[0.3px]'
+
   return (
     <button
       className={clsx(
@@ -35,6 +37,7 @@ export function Button({
         variant === 'secondary' &&
           clsx(
             'bg-[var(--color-black-800)] text-white',
+            secondaryTypography,
             !isDisabled && 'hover:bg-[#2b2b2b] active:bg-[#1f1f1f]'
           ),
         isDisabled && 'opacity-60 cursor-not-allowed',
@@ -47,4 +50,3 @@ export function Button({
     </button>
   )
 }
-

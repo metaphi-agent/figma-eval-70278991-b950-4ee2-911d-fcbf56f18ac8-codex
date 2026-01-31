@@ -119,7 +119,7 @@ export default function LoginPage() {
           <div className="hidden h-full lg:grid lg:grid-cols-[minmax(0,1fr)_456px]">
             <section className="relative h-full overflow-hidden">
               <img
-                src="./assets/images/hero-photo.png"
+                src="./assets/images/hero-photo.jpg"
                 alt="Coastal lighthouse view"
                 className="h-full w-full object-cover"
               />
@@ -150,7 +150,10 @@ export default function LoginPage() {
                 </div>
 
                 <div className="space-y-6">
-                  <h1 className="text-[30px] font-bold leading-[36px] text-[var(--color-black-900)]">
+                  <h1
+                    className="text-[20px] font-semibold leading-[28px] text-[var(--color-black-900)]"
+                    style={{ fontFamily: 'var(--font-title)' }}
+                  >
                     Nice to see you again
                   </h1>
 
@@ -276,7 +279,10 @@ export default function LoginPage() {
             <MobileChromeTop />
             <div className="flex flex-1 flex-col justify-between px-4 pb-4 pt-8">
               <div className="space-y-6">
-                <h1 className="text-[28px] font-bold leading-[34px] text-[var(--color-black-900)]">
+                <h1
+                  className="text-[20px] font-semibold leading-[28px] text-[var(--color-black-900)]"
+                  style={{ fontFamily: 'var(--font-title)' }}
+                >
                   Nice to see you again
                 </h1>
 
@@ -396,4 +402,3 @@ export default function LoginPage() {
     </div>
   )
 }
-
